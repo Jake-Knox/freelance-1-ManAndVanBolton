@@ -146,7 +146,11 @@ section ul{
     width: 45%;
 }
 
+.split-section ul{
+    padding-top: 2vh;
+    padding-bottom: 1vh;
 
+}
 
 /* Style the contact form */
 form label {
