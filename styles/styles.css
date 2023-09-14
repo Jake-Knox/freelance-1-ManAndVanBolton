@@ -10,13 +10,22 @@ body {
     background-color: #333;
     color: #fff;
     font-family: Arial, sans-serif;
+
+    overflow-x: hidden;
+}
+
+.highlight{
+    color: orange;
 }
 
 /* Center the content */
 header, section, footer {
-    max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+}
+
+header, footer{
+    width: 96%;
 }
 
 /* Style the header */
@@ -49,6 +58,8 @@ nav a:hover {
 
 /* Style the sections */
 section {
+    max-width: 800px;
+
     background-color: #444;
     margin-top: 20px;
     padding: 20px;
@@ -104,11 +115,20 @@ section ul{
     font-size: 1.2em;
     text-align: center;
 
-    height: 5vh;
+    display: inline-block;
+    vertical-align: middle;
+    
+
+    height: 6vh;
     width: 32%;
-    padding-top: 3vh;
-    padding-bottom: 0vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
     border: 2px solid orange;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .side-div{
@@ -188,7 +208,14 @@ footer {
     text-align: center;
     background-color: #222;
     margin-top: 20px;
-    padding: 10px 0;
+    /* padding: 10px 0; */
+    margin-bottom: 0 auto;
+}
+
+footer a{
+    text-decoration: underline;
+    color: #aaaaaa;
+
 }
 
 /* Make the navigation responsive for small screens */
@@ -212,6 +239,7 @@ footer {
 
     .split-section{
         width: 100%;
+        margin-top: 2vh;
     }
 
     #googleMapIframe{
