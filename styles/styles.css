@@ -1,0 +1,175 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0.5vh;
+}
+
+/* Set a dark gray background and white text */
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the content */
+header, section, footer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    background-color: #222;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the sections */
+section {
+    background-color: #444;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+section h2 {
+    font-size: 1.5rem;
+}
+
+section p {
+    margin-top: 10px;
+}
+
+section ul{
+    margin-left: 2vw;
+}
+
+.section-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-bottom: 2vh;
+}
+
+/* uls */
+
+.ul-wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.li-wrap{
+    list-style-type: none;
+
+    font-size: 1.2em;
+    text-align: center;
+
+    height: 5vh;
+    width: 32%;
+    padding-top: 3vh;
+    padding-bottom: 0vh;
+    border: 2px solid orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style the contact form */
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="submit"],
+form textarea {
+    width: 97%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+form textarea {
+    resize: vertical;
+    height: 10vh;
+}
+
+#contact input:required {
+    border: 2px solid orange;
+}
+
+form input[type="submit"]{
+    font-size: 1.2em;
+    width: 30%;
+    background-color: orange;
+}
+form input[type="submit"]:hover{    
+    background-color: rgb(224, 146, 0);
+    cursor: pointer;
+}
+
+.centre-element{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #222;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+/* Make the navigation responsive for small screens */
+@media screen and (max-width: 768px) {
+    nav ul {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
