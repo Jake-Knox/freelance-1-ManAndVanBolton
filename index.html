@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <header>
+    <header>        
         <h1>Man and Van Bolton</h1>
         <nav>
             <ul>
+                <li><a href="#pricing">Services</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#locations">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -23,20 +24,52 @@
 
     <section id="pricing">
         <div class="section-head">
-            <h2>Phone: 07563403731</h2>
-        <p>Get in touch with Paul for a free estimate</p>
-        </div>        
-        <ul>
-            <li>No deposit required</li>
-            <li>Payment via cash or bank transfer</li>
-            <li>Payments are taken once furniture has been delivered</li>
-            <br>
-            <li>Single items from £25 </li>
-            <li>Small moves from £75</li>
-        </ul>
+            <h2>Contact: 07563403731</h2>
+        <p>Call or text <b>Paul</b> for a free estimate</p>
+        </div>   
+        <div class="section-conent">
+            <ul class="split-section">
+                <li>No deposit required</li>
+                <li>Payment via cash or bank transfer</li>
+                <li>Payments are taken once furniture has been delivered</li>
+                <br>
+                <li>Single items from £25 </li>
+                <li>Small moves from £75</li>
+            </ul>
+            <div class="side-div split-section">
+                <img class="side-img" alt="img">
+            </div>
+        </div>             
+        
     </section>
 
-    <section id="location">
+    <section id="services">
+        <div class="section-head">
+            <h2>Services</h2>
+            <p>...</p>
+        </div>     
+        <div class="section-conent">
+            <ul class="split-section">
+                <li>Full and part removals</li>
+                <li>House and flat removals</li>
+                <li>Company & office moves</li>
+                <li>Student moves</li>
+                <br>
+                <li>Store pickups</li>
+                <li>Ebay, Gumtree & Facebook items</li>
+                <li>Single item courier</li>
+    
+            </ul>
+            <div class="side-div split-section">
+                <h3>Van Dimentions:</h3>
+                <p>Length 3.550m</p>
+                <p>Width 1.760m</p>
+                <p>Height 1.800m</p>
+            </div>
+        </div>         
+    </section>
+
+    <section id="locations">
         <div class="section-head">
             <h2>Locations</h2>
             <p>Need a Man and Van in...</p>
@@ -48,27 +81,23 @@
             <li class="li-wrap">Howrich</li>
             <li class="li-wrap">Lostock</li>
             <li class="li-wrap">Bury</li>
+            <li class="li-wrap">Wigan</li>
             <li class="li-wrap">Greater Manchester</li>
-
-
-        </ul>
-    </section>
-
-
-    <section id="services">
-        <h2>Services</h2>
-        <p>Describe the services you offer.</p>
-        <ul>
-            <li>Service 1</li>
-            <li>Service 2</li>
-            <li>Service 3</li>
+            <li class="li-wrap">North West</li>
         </ul>
     </section>
 
     <section id="contact">
-        <h2>Contact</h2>
-        <p>Email </p>
-        <form action="contact.php" method="post">
+        <div class="section-head">
+            <h2>Contact</h2>
+            <p>Phone and Email</p>
+        </div>   
+        <h3>Email @<h3>    
+
+
+
+
+        <form action="contact.php" method="post" style="display: none;">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required><br>
             <label for="email">Email:</label>
