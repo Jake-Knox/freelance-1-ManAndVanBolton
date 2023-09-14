@@ -40,8 +40,11 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: orange;
     font-weight: bold;
+}
+nav a:hover {
+    color: rgb(224, 146, 0);;
 }
 
 /* Style the sections */
@@ -62,7 +65,6 @@ section p {
 
 section ul{
     margin-left: 2vw;
-    border: 1px solid orange;
 }
 
 .section-head{
@@ -81,7 +83,6 @@ section ul{
     align-items: flex-start;
 
     flex-wrap: wrap;
-    border: 2px solid orange;
 
 }
 
@@ -111,13 +112,14 @@ section ul{
 }
 
 .side-div{
-    border: 1px solid orange;
     text-align: center;
 
 }
 
 .side-img{
-    border: 1px solid orange;
+    width: 100%;
+    border: 2px solid orange;
+    border-radius: 5px;
 }
 
 .split-section{
@@ -172,6 +174,7 @@ form input[type="submit"]:hover{
 
 /* Style the footer */
 footer {
+    color: #aaaaaa;
     text-align: center;
     background-color: #222;
     margin-top: 20px;
@@ -194,10 +197,7 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-    
-        border: 2px solid orange;
-    
+        align-items: center;    
     }
     .split-section{
         width: 100%;
