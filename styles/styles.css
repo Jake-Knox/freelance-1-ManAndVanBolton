@@ -172,6 +172,16 @@ form input[type="submit"]:hover{
     align-items: center;
 }
 
+#googleMapIframe{    
+    width:600; 
+    height:450;
+
+    margin-top: 2vh;
+
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+
 /* Style the footer */
 footer {
     color: #aaaaaa;
@@ -199,8 +209,15 @@ footer {
         justify-content: center;
         align-items: center;    
     }
+
     .split-section{
         width: 100%;
+    }
+
+    #googleMapIframe{
+        width:100%; 
+        aspect-ratio: 4 / 3;
+        height: auto;
     }
 
 }
